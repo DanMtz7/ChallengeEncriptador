@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0"> 
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="EncriptadorCSS.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <title>Challenge ONE Encriptador DanMtz7</title>
+    </head>
+
+    <body>
+        <main>
+            <div id="logo">
+                <img src="logo.svg" alt="Logo de Alura">
+            </div>
+
+            <div id="controles">
+                <textarea id="ingreseTexto" placeholder="Ingrese el texto aquí"></textarea>
+                <div id="advertencias">
+                    <input type="image" id="imgadvertencia" src="advertencia.svg" alt="signo advertencia">
+                    <label for="imgadvertencia">Solo letras minúsculas y sin acentos</label>
+                </div>
+                <div id="botones">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+
+            <div class="container" id="salidas">
+                <img id="imagenpersona" src="persona.svg" alt="persona">
+                <div id="comentarios">
+                    <textarea id="comentario1">Ningún mensaje fue encontrado</textarea>
+                    <textarea id="comentario2">Ingresa el texto que desees encriptar o desencriptar</textarea>
+                </div>
+            </div>
+
+            <div class="container" id="resultados">
+                <textarea id="resultado" placeholder="Texto encriptado/desencriptado"></textarea>
+                <button id="copiar">Copiar</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Challenge Encriptador ONE desarrollado por DanMtz7</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
